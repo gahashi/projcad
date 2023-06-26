@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+  background: linear-gradient(to bottom, #cbcbcb, #fff 50%);
+  font-family: "harald";
+}
+input,
+placeholder,
+select {
+  font-family: "harald";
+}
+
+.navbar1 {
+  top: 0;
+  left: 0;
+  width: 20vw; /* Defina a largura desejada para o navbar */
+  height: 100vh; /* Defina a altura desejada para o navbar */
+  background: linear-gradient(to bottom, #10795d, #061b30 50%);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* Outras estilizações do navbar */
+}
+
+.navbar1 nav div {
+  margin-bottom: 10px; /* Espaçamento entre os ícones */
+  text-align: end;
+}
+
+.navbar1 a,
+p {
+  margin: 0 10px;
+  font-size: 1em;
+  color: #ffffff;
+  transition: font-size 0.3s;
+}
+
+.navbar1 a:hover,
+p:hover {
+  font-size: 1.2em;
+  color: #3dffcb;
+}
+
+.content {
+  flex: 1;
+  padding: 10px;
+  /* Outras estilizações dos elementos à direita */
+}
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  margin: 0% auto;
+  flex-direction: row;
+  text-align: center;
+  width: 75vw;
+}
+
+.pag {
+  display: inline;
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  margin: 0% 0% 0% 5%;
+  flex-direction: row;
+}
+.App {
+  display: flex;
+}
+
+.linha {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardhome {
+  background: linear-gradient(to bottom, #10795d, #061b30 30%);
+  display: flex;
+  flex-direction: row;
+
+  margin: 10% auto;
+  color: #ffffff;
+  border-radius: 5%;
+  font-size: 0.8em;
+}
+.cardhome div {
+  margin: 5%;
+}
+.cardhome select,
+.cardhome input {
+  background-color: #061b30;
+  border: 1px solid #10795d;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 100%;
+  padding: 5px;
+}
+.cardhome button {
+  background: linear-gradient(to bottom, #41be9d -10%, #3dffcb 190%);
+  color: #ffffff;
+  width: 100%;
+}
+.cardhome button:hover {
+  color: #3dffcb;
+  width: 100%;
+}
+.cardhome input::placeholder {
+  color: rgb(255, 255, 255);
+}
+.cardhome input::placeholder:hover {
+  color: #10795d;
+}
+
+select {
+  /* Personalizar a seta em navegadores WebKit */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px; /* Adapte o espaçamento para acomodar a imagem da seta */
+}
+.imgg {
+  width: 100%;
+  height: auto;
+}
+.homeform {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgg2{
+  width: 16px;
+  height: auto;
+}

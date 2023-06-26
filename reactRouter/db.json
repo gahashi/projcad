@@ -1,0 +1,17 @@
+{
+  "Projects": [],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "programador"
+    },
+    {
+      "id": 2,
+      "name": "Designer"
+    },
+    {
+      "id": 3,
+      "name": "RH"
+    }
+  ]
+}
